@@ -1,0 +1,5 @@
+# Starts a local Redis. Later, Memorystore replaces this: only REDIS_HOST changes.
+services:
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]
